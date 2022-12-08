@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+/* @font-face {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/Barlow/Barlow-400.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(/fonts/Barlow/Barlow-500.woff2) format("woff2");
+  } */
+  @font-face {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 600 700 800;
+    font-display: swap;
+    src: url(./Fonts/Barlow-400.woff2) format("woff2");
+  }
+  /* @font-face {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(./fonts/Barlow-700.woff2) format("woff2");
+  } */
+  /*  
+  @font-face {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(./fonts/Barlow-800.woff2) format("woff2");
+  } */
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url(./Fonts//Inter-var.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "Sarina";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url(./Fonts/Sarina-400.woff2) format("woff2");
+  }
+  
+
+  .Sarina{
+    font-family:'Sarina';
+  }
+
+  .woff{
+    font-family:'Barlow'
+  }
+
+
+
+  body::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Adding Scroll Margin for top */
+  * {
+    scroll-margin-top: 80px;
+  }
+  @media screen and (max-width: 640px) {
+    * {
+      scroll-margin-top: 60px;
+    }
+    body::-webkit-scrollbar {
+      width: 2px;
+    }
+  }
+  
+  pre::-webkit-scrollbar {
+    display: none;
+  }
+  
+  body.dark {
+    background-color: #181a1b;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #393e41;
+  }
+  
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .lock-scroll {
+    overflow: hidden !important;
+  }
+
+
+  .Ani{
+    font-family: 'Alfa Slab One', cursive;
+  }
+
+
+
+  .inter{
+    font-family: 'Inter'
+  }
