@@ -107,7 +107,7 @@ const Contact = () => {
           type="submit"
           onClick={() => {Handlesend()}}
         >
-          Send
+          Senlld
         </button>
       </div>
     </div>

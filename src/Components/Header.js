@@ -10,7 +10,7 @@ import { IoMdClose } from "react-icons/io";
 const Header = () => {
   const [Scroll, setScroll] = useState("");
   const [Mode, setMode] = useState(true);
-  const [modal, setModal] = useState(true);
+  const [modal, setModal] = useState(false);
 
   const ChangeScroll = () => {
     if (window.scrollY > 10) {
@@ -24,6 +24,7 @@ const Header = () => {
     window.addEventListener("scroll", ChangeScroll);
   });
 
+  console.log('a'+-'b'+23+3)
   return (
     <header
       className={`flex  justify-between  p-4 bg-[${Scroll}]  items-center fixed w-full    z-10`}

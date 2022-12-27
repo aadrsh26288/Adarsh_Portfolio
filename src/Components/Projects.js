@@ -44,12 +44,12 @@ const Projects = () => {
                    }
                 </div>
 
-                <div className="flex gap-3 mt-1 text-2xl items-center flex-wrap text-gray-500 hover:text-gray-100">
-                  <a href="#">
+                <div className="flex gap-3 mt-1 text-2xl items-center flex-wrap text-gray-500 ">
+                  <a href={project.Github} target="_blank">
                     <SiGithub className='' />
                   </a>
-                  <a href="#">
-                    <MdLink   className=''/>
+                  <a href={project.Link}>
+                    <MdLink className=''/>
                   </a>
                 </div>
               </div>
