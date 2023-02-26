@@ -4,6 +4,33 @@ import Starbucks from '../Images/Starbucks.png'
 import Nft from '../Images/Nft.png'
 
 export const ProjectData =[
+    
+    {id:5,
+     Title:'ShopeO e-commerce',
+     Img:'https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MXx8ZSUyMGNvbW1lcmNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
+     Description:'ShopeO e-commence website built using React, Redux Toolkit, and TailwindCSS. which consist functionality like add cart and advance products filter ',
+     Github:'https://github.com/aadrsh26288/ShopO-e-commerce',
+     Link:'https://shop-o-e-commerce.vercel.app/',
+     Skills:['HTML','TailwindCSS','JS','React','Redux-Toolkit']
+    },
+   {id:4,
+     Title:'Chat App',
+     Img:'https://images.pexels.com/photos/5053740/pexels-photo-5053740.jpeg?auto=compress&cs=tinysrgb&w=600',
+     Description:' This project provides the instant communication functionality between users only authenticated user can access the services ',
+     Github:'https://github.com/aadrsh26288/ChatApp',
+     Link:'https://chat-app-gamma-three.vercel.app/',
+     Skills:['HTML','TailwindCSS','JS','React','Firebase']
+    },   
+
+        {id:2,
+     Title:'Starbucks 2.0',
+     Img:"https://images.unsplash.com/photo-1637290742802-3c8a0f5bd49b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHN0YXJidWNrc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+     Description:'Starbucks 2.0 is a clone landing page that employs Redux for AddCart functionality and Tailwind CSS for styling.',
+     Github:'https://github.com/aadrsh26288/Starbucks-2.0',
+     Link:'https://starbucks-2-0.vercel.app/',
+     Skills:['HTML','Tailwind CSS','JS','React','Redux']
+    },
+
     {id:1,
      Title:'Twin Tech',
      Img:TwinTech,
@@ -13,14 +40,7 @@ export const ProjectData =[
      Skills:['HTML','Tailwind CSS','JS','React','Firebase',]
     },
 
-    {id:2,
-     Title:'Starbucks 2.0',
-     Img:"https://images.unsplash.com/photo-1637290742802-3c8a0f5bd49b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHN0YXJidWNrc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
-     Description:'Starbucks 2.0 is a clone landing page that employs Redux for AddCart functionality and Tailwind CSS for styling.',
-     Github:'https://github.com/aadrsh26288/Starbucks-2.0',
-     Link:'https://starbucks-2-0.vercel.app/',
-     Skills:['HTML','Tailwind CSS','JS','React','Redux']
-    },
+
 
     {id:3,
      Title:'Weather App',
@@ -31,14 +51,7 @@ export const ProjectData =[
      Skills:['HTML','CSS','JS']
     },
 
-    {id:4,
-     Title:'Chat App',
-     Img:'https://images.pexels.com/photos/5053740/pexels-photo-5053740.jpeg?auto=compress&cs=tinysrgb&w=600',
-     Description:' This project provides the instant communication functionality between users only authenticated user can access the services ',
-     Github:'https://github.com/aadrsh26288/ChatApp',
-     Link:'https://chat-app-gamma-three.vercel.app/',
-     Skills:['HTML','TailwindCSS','JS','React','Firebase']
-    },    
+ 
 
     {id:5,
      Title:'Nft Marketplace',
