@@ -47,10 +47,10 @@ const Home = () => {
             </div>
           </AnimatedDiv>
 
-          <div className="text-2xl inter md:mt-5">
+          <div className="text-2xl font-medium inter md:mt-5">
             <p>
-              Currently Working as Web Dev intern (React js) At{" "}
-              <span className="font-bold">Mitambi Solutions.</span>
+             Creative <span className="font-extrabold text-gray-400">Designer</span> & <span className="font-extrabold text-gray-400">Developer</span>.<br></br>
+            Specialized in UX/UI design & Web developement
             </p>
             {/* <p className="mt-5">I have 5 months of experience in Web development and 3 months of experience in react</p> */}
           </div>

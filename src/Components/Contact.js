@@ -103,11 +103,11 @@ const Contact = () => {
           />
         </div>
         <button
-          className="p-2 text-center px-6 bg-[#25282A] mt-5 w-52  rounded-lg"
+          className="p-2 text-center  px-6 bg-[#25282A] mt-5 w-52  rounded-xl font-medium"
           type="submit"
           onClick={() => {Handlesend()}}
         >
-          Senlld
+          Send
         </button>
       </div>
     </div>
