@@ -32,7 +32,9 @@ function App() {
       <Route   path="/utilities" element={<Utilities />} />
       <Route   path="/projects" element={<Projects />} />
     </Routes>
+    <Footer/>
     </Router>
+  
     </div>
 
 
