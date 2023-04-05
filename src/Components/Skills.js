@@ -46,7 +46,7 @@ function SkillSection() {
             </motion.div>
 
 
-            <motion.div variants={popUp} className="p-4 select-none  flex items-center justify-center sm:justify-start gap-4  hover:bg-[#25282A] border rounded-sm border-neutral-700  transform origin-center md:origin-top group"  >
+            <motion.div variants={popUp} className="p-4  select-none  flex items-center justify-center sm:justify-start gap-4  hover:bg-[#25282A] border rounded-sm border-neutral-700  transform origin-center md:origin-top group"  >
               <div className="relative transition group-hover:scale-110 sm:group-hover:scale-100 select-none pointer-events-none">
                 <SiCss3 className="w-8 h-8" />
               </div>

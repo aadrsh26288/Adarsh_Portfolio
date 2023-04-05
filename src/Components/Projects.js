@@ -5,15 +5,31 @@ import { ProjectData } from "../Data/ProjectsData";
 
 const Projects = () => {
 // console.log("Project", ProjectData.Skills[0])
+const [search , setSearch] = useState('')
+console.log(search)
+const str = search.toLowerCase()
+
+const FilteredProjects = ProjectData.filter(project =>project.Description.toLowerCase().includes(search.toLowerCase()))
+// const FilteredProjects = ProjectData.filter((project) =>{
+//  return project.Description.toLowerCase().includes(search.toLowerCase())
+// }
+
+// )
+
+
+
 
   return (
     <div className="pt-20  max-w-5xl mx-auto ">
-      <h1 className="text-5xl inter font-bold ">Projects</h1>
+
+      <h1 className="text-5xl inter font-bold ">Projects <span className="">[{FilteredProjects.length}]</span></h1>
+
       <p className="text-xl text-[#a3a3a3] mt-5 font-medium inter">
         Some stuff that i have worked on
       </p>
+     <input type='text' placeholder='Search Projects...' value={search} className="bg-[#25282A] p-2 mt-1 rounded-lg shadow-xl w-full outline-none" onChange={(e)=>{setSearch(e.target.value)}} />
       <div className="grid grid-cols-1 gap-10 py-5 lg:px-20 md:px-10 px-5">
-        {ProjectData.map((project) => {
+        {FilteredProjects.map((project) => {
           // console.log("Project", project.Skills)
       
 
