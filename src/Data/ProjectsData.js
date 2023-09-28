@@ -5,11 +5,22 @@ import Nft from "../Images/Nft.png";
 
 export const ProjectData = [
 	{
+		id: 8,
+		Title: "Recpie Genius",
+		Img: "https://images.pexels.com/photos/5907901/pexels-photo-5907901.jpeg?auto=compress&cs=tinysrgb&w=600",
+		Description:
+			"The Recpie Geniusis a web app created using  Tailwind CSS, and MERN stack. It offers functionality that allows users to create their own Recpie, Save and Edit  the recpie, but only if they are authenticated. ",
+		Github: "https://github.com/aadrsh26288/RecipeGenius",
+		Link: "https://recipe-genius-jagn.vercel.app/",
+		Skills: ["HTML", "TailwindCss", "React Js", "ExpressJs", "MongoDB"],
+	},
+
+	{
 		id: 7,
 		Title: "The Pen's Point ",
 		Img: "https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=600",
 		Description:
-			"The Pen's Point is a blog website created using React, Tailwind CSS, and Firebase. It offers functionality that allows users to create their own blogs, comment on posts, and like other blogs, but only if they are authenticated ",
+			"The Pen's Point is a blog website created using React, Tailwind CSS, and Firebase. It offers functionality that allows users to create their own blogs, comment on posts, and like other blogs, but only if they are authenticated .",
 		Github: "",
 		Link: "https://blog-app-lilac-one.vercel.app/article/AV9bARLRKbeaN6h4j2Bs",
 		Skills: ["HTML", "TailwindCss", "React Js", "Firebase"],
